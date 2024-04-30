@@ -17,9 +17,11 @@
     "url": "https://github.com/nitmws/odrl-wprofile-evaltest1"
   },
   "dependencies": {
+    "graphy": "^4.3.7",
     "js-yaml": "^3.9.1",
     "jsonfile": "^3.0.1",
     "jsonld": "^0.4.12",
+    "jsonld-cli": "^2.0.0",
     "n3": "^0.11.2"
   }
 }

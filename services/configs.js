@@ -4,7 +4,7 @@ let fs = require("fs")
 
 function loadTestconfig() {
     try {
-        exports.testconfig = yaml.safeLoad(fs.readFileSync(__dirname + './../testdata/testconfig.yml', 'utf8'));
+        exports.testconfig = yaml.safeLoad(fs.readFileSync(__dirname + '/../testdata/testconfig.yml', 'utf8'));
     } catch (e) {
         console.log(e);
     }
