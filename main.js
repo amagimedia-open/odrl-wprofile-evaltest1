@@ -4,7 +4,7 @@
 *****************************************************************/
 
 let Test1 = require("./evaltests/test")
-
+//let Test1 = require("./evaltests/test_modf")
 
 // ********************************************************
 // ********** ODRL Information Model Examples
